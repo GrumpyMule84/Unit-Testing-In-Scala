@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>Unit-Testing-In-Scala-master</artifactId>
+    <groupId>repository</groupId>
+    <version>0.1</version>
+    <properties>
+        <scala.version>2.12.12</scala.version>
+    </properties>
+
+    <dependencies>
+    <dependency>
+        <groupId>org.scala-lang</groupId>
+        <artifactId>scala-library</artifactId>
+        <version>${scala.version}</version>
+        <scope>provided</scope>
+    </dependency>
+
+    <!-- Testing Dependencies -->
+    <dependency>
+        <groupId>org.scalatest</groupId>
+        <artifactId>scalatest_2.12</artifactId>
+        <version>3.0.5</version>
+        <scope>test</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.13</version>
+        <scope>test</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-all</artifactId>
+        <version>1.10.19</version>
+        <scope>test</scope>
+    </dependency>
+    </dependencies>
+</project>
