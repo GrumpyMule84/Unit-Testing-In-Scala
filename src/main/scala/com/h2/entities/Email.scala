@@ -16,3 +16,4 @@ object Email {
 class Email(val localPart: String, val domain: String) {
   override def toString: String = s"$localPart@$domain"
 }
+
