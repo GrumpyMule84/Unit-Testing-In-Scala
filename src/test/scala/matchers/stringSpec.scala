@@ -1,10 +1,8 @@
 package matchers
 
 import com.h2.services.CustomerService
-import org.scalatest.flatspec.AnyFlatSpec
-import org.scalatest.matchers.should.Matchers
 
-class stringSpec extends AnyFlatSpec with Matchers {
+class stringSpec extends UnitSpec {
   val customerService = new CustomerService {}
 
   behavior of "Customer service for strings"

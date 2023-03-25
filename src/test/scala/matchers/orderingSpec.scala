@@ -1,10 +1,8 @@
 package matchers
 
 import com.h2.services.Currency
-import org.scalatest.flatspec.AnyFlatSpec
-import org.scalatest.matchers.should.Matchers
 
-class orderingSpec extends AnyFlatSpec with Matchers{
+class orderingSpec extends UnitSpec {
 
   behavior of "Currency conversion cost comparison"
 
